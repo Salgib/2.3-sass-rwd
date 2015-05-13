@@ -1,0 +1,118 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+/* Body and Container */
+
+body {
+  background-image: url("../assets/images/bg.jpg");
+  font-size: 62.5%;
+  border-sizing: border-box;
+}
+
+.container {
+  @include outer-container (1024px);
+}
+
+/* Social and Nav */
+
+.social-buttons {
+ @include span-columns(12);
+}
+
+.social-buttons p {
+  @include span-columns(8);
+  font-size: 2em;
+  font-color: white;
+}
+
+.social-buttons li{
+  @include span-columns(4);
+}
+
+
+nav {
+  @include span-columns(12);
+}
+
+nav a {
+  @include span-columns(3);
+  background-color: RGBA(180, 41, 46, 1);
+  font-size: 2em;
+  color: white;
+
+}
+
+
+
+/* Banner and Radials */
+
+.banner {
+  @include span-columns(12);
+  background-image: url("../assets/images/top-image.png");
+  height: 357px;
+  border: white 3px solid;
+}
+
+.banner .logo{
+  padding-top: 5.5em;
+  z-index: 2;
+}
+/* 
+.banner .grid {
+  z-index: 1;
+}
+ */
+
+/* Articles */
+
+article {
+  @include span-columns(4);
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 1.5em;
+
+}
+
+/* Skateboarders */
+
+.skaters {
+  @include span-columns(12);
+  color: white;
+
+
+
+#steve {
+  @include span-columns(8);
+  background-image: url("assets/images/sk8er-1.png");
+
+
+  #lance {
+    @include span-columns(4 of 8);
+    background-image: url("assets/images/sk8er-4.png");
+
+  }
+
+  #rodney {
+    @include span-columns(4 of 8);
+    background-image: url("assets/images/sk8er-3.png");
+    }
+}
+
+#tommy {
+
+  @include span-columns(4);
+  background-image: url("assets/images/sk8er-2.png");
+}
+}
+
+
+
+/* Skateboard Gallery */
+
+.skateboards {
+  @include span-columns(12);
+  padding: 1.8em;
+
+}
+
+
+/* Contact Form */
