@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+/* Body and Container */
+body {
+  background-image: url("../assets/images/bg.jpg");
+  font-size: 62.5%;
+  border-sizing: border-box; }
+
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+/* Social and Nav */
+.social-buttons {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .social-buttons:last-child {
+    margin-right: 0; }
+
+.social-buttons p {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  font-size: 2em;
+  font-color: white; }
+  .social-buttons p:last-child {
+    margin-right: 0; }
+
+.social-buttons li {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .social-buttons li:last-child {
+    margin-right: 0; }
+
+nav {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  nav:last-child {
+    margin-right: 0; }
+
+nav a {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  background-color: RGBA(180, 41, 46, 1);
+  font-size: 2em;
+  color: white; }
+  nav a:last-child {
+    margin-right: 0; }
+
+/* Banner and Radials */
+.banner {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-image: url("../assets/images/top-image.png");
+  height: 357px;
+  border: white 3px solid; }
+  .banner:last-child {
+    margin-right: 0; }
+
+.banner .logo {
+  padding-top: 5.5em;
+  z-index: 2; }
+
+/* 
+.banner .grid {
+  z-index: 1;
+}
+ */
+/* Articles */
+article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 1.5em; }
+  article:last-child {
+    margin-right: 0; }
+
+/* Skateboarders */
+.skaters {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  color: white; }
+  .skaters:last-child {
+    margin-right: 0; }
+  .skaters #steve {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    background-image: url("assets/images/sk8er-1.png"); }
+    .skaters #steve:last-child {
+      margin-right: 0; }
+    .skaters #steve #lance {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 48.21067%;
+      background-image: url("assets/images/sk8er-4.png"); }
+      .skaters #steve #lance:last-child {
+        margin-right: 0; }
+    .skaters #steve #rodney {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 48.21067%;
+      background-image: url("assets/images/sk8er-3.png"); }
+      .skaters #steve #rodney:last-child {
+        margin-right: 0; }
+  .skaters #tommy {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    background-image: url("assets/images/sk8er-2.png"); }
+    .skaters #tommy:last-child {
+      margin-right: 0; }
+
+/* Skateboard Gallery */
+.skateboards {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  padding: 1.8em; }
+  .skateboards:last-child {
+    margin-right: 0; }
+
+/* Contact Form */
